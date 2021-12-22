@@ -23,7 +23,8 @@ h3 {
 }
 
 /* Header */
-.header {
+.header,
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +38,8 @@ h3 {
     flex-basis: 45%;
 }
 
-.header-logo {
+.header-logo,
+.footer-logo {
     display: block;
     background-image: url(../logo.svg);
     background-repeat: no-repeat;
@@ -46,7 +48,8 @@ h3 {
     height: 30px;
 }
 
-.header-nav {
+.header-nav,
+.footer-nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +59,8 @@ h3 {
     gap: 54px;
 }
 
-.header-nav a {
+.header-nav a,
+.footer-nav a {
     font-size: 18px;
     font-weight: 400;
     color: #2B3541;
@@ -332,3 +336,73 @@ input {
 }
 
 /* About */
+.about {
+    margin-bottom: 170px;
+}
+
+.about-content {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.about-company {
+    width: 50%;
+}
+
+.about-text {
+    max-width: 416px;
+    margin-bottom: 50px;
+
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2B3541;
+}
+
+.sign-up {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #2B3541;
+    background-color: #FBF138;
+
+    padding: 20px 50px;
+}
+
+.about-img {
+    width: 581px;
+    height: 335px;
+}
+
+.about-benefits {
+    display: flex;
+}
+
+.benefit-title {
+    font-size: 18px;
+    font-weight: 700;
+
+    color: #2B3541;
+    margin-bottom: 20px;
+}
+
+.benefit-text {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2B3541;
+    opacity: 0.6;
+}
+
+/* Footer */
+footer {
+    background-color: #F3F3F3;
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 52%;
+}
