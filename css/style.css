@@ -400,9 +400,26 @@ footer {
     background-color: #F3F3F3;
 }
 
+.footer {
+    padding-top: 42px;
+    margin-bottom: 26px;
+}
+
 .footer-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-basis: 52%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.allright,
+.company-right {
+    font-size: 14px;
+    color: #2B3541;
+    opacity: 0.3;
 }
